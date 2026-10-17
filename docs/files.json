@@ -1,0 +1,175 @@
+{
+ "title": "WP Snippets",
+ "description": "Kho đoạn code WordPress / WooCommerce: tìm kiếm, header, bộ lọc sản phẩm, nút liên hệ nổi…",
+ "repo": "hoangpham2263/wp-snippets",
+ "files": [
+  {
+   "path": "README.md",
+   "group": "",
+   "title": "Giới thiệu (README)"
+  },
+  {
+   "path": "popup.php",
+   "group": ""
+  },
+  {
+   "path": "section-read-more-description.php",
+   "group": ""
+  },
+  {
+   "path": "function/floating-contact-buttons.php",
+   "group": "function",
+   "title": "floating-contact-buttons.php"
+  },
+  {
+   "path": "function/init-aos.php",
+   "group": "function",
+   "title": "init-aos.php"
+  },
+  {
+   "path": "function/polylang.php",
+   "group": "function",
+   "title": "polylang.php"
+  },
+  {
+   "path": "function/qhw-add-mobile-logo.php",
+   "group": "function",
+   "title": "qhw-add-mobile-logo.php"
+  },
+  {
+   "path": "shortcode/Polylang Pro/polylang.php",
+   "group": "shortcode",
+   "title": "Polylang Pro/polylang.php"
+  },
+  {
+   "path": "shortcode/account/sc_account-header-icon.php",
+   "group": "shortcode",
+   "title": "account/sc_account-header-icon.php"
+  },
+  {
+   "path": "shortcode/cart/hook_cart.txt",
+   "group": "shortcode",
+   "title": "cart/hook_cart.txt"
+  },
+  {
+   "path": "shortcode/cart/sc_cart-header-icon.php",
+   "group": "shortcode",
+   "title": "cart/sc_cart-header-icon.php"
+  },
+  {
+   "path": "shortcode/other/qhw-floating-action-buttons-css-core.php",
+   "group": "shortcode",
+   "title": "other/qhw-floating-action-buttons-css-core.php"
+  },
+  {
+   "path": "shortcode/other/qhw-floating-action-buttons.php",
+   "group": "shortcode",
+   "title": "other/qhw-floating-action-buttons.php"
+  },
+  {
+   "path": "shortcode/other/sc_catch-breakpoint-scroll.php",
+   "group": "shortcode",
+   "title": "other/sc_catch-breakpoint-scroll.php"
+  },
+  {
+   "path": "shortcode/other/sc_view-more-products.php",
+   "group": "shortcode",
+   "title": "other/sc_view-more-products.php"
+  },
+  {
+   "path": "shortcode/other/swiper-product-related.php",
+   "group": "shortcode",
+   "title": "other/swiper-product-related.php"
+  },
+  {
+   "path": "shortcode/search/sc_global_search_with_input_v1.php",
+   "group": "shortcode",
+   "title": "search/sc_global_search_with_input_v1.php"
+  },
+  {
+   "path": "shortcode/search/sc_global_search_with_page_v1.php",
+   "group": "shortcode",
+   "title": "search/sc_global_search_with_page_v1.php"
+  },
+  {
+   "path": "shortcode/search/sc_search-global-icon-dropdown.php",
+   "group": "shortcode",
+   "title": "search/sc_search-global-icon-dropdown.php"
+  },
+  {
+   "path": "shortcode/search/sc_search-global-icon-input-dropdown.php",
+   "group": "shortcode",
+   "title": "search/sc_search-global-icon-input-dropdown.php"
+  },
+  {
+   "path": "shortcode/search/sc_search-product.php",
+   "group": "shortcode",
+   "title": "search/sc_search-product.php"
+  },
+  {
+   "path": "shortcode/search/search-have-bg-mobile/html.php",
+   "group": "shortcode",
+   "title": "search/search-have-bg-mobile/html.php"
+  },
+  {
+   "path": "shortcode/search/search-have-bg-mobile/mobile-search.js",
+   "group": "shortcode",
+   "title": "search/search-have-bg-mobile/mobile-search.js"
+  },
+  {
+   "path": "shortcode/search/search-have-bg-mobile/sc_search-global-input.php",
+   "group": "shortcode",
+   "title": "search/search-have-bg-mobile/sc_search-global-input.php"
+  },
+  {
+   "path": "shortcode/sidebar/select-category.php",
+   "group": "shortcode",
+   "title": "sidebar/select-category.php"
+  },
+  {
+   "path": "shortcode/sidebar/shortcodes_sidebar.php",
+   "group": "shortcode",
+   "title": "sidebar/shortcodes_sidebar.php"
+  },
+  {
+   "path": "shortcode/sidebar/sidebar-product-filter-desktop.php",
+   "group": "shortcode",
+   "title": "sidebar/sidebar-product-filter-desktop.php"
+  },
+  {
+   "path": "shortcode/sidebar/sidebar-product-filter-mobile.php",
+   "group": "shortcode",
+   "title": "sidebar/sidebar-product-filter-mobile.php"
+  },
+  {
+   "path": "shortcode/sidebar/sidebar-product-link-category.php",
+   "group": "shortcode",
+   "title": "sidebar/sidebar-product-link-category.php"
+  },
+  {
+   "path": "shortcode/sidebar/sidebar-product-sort.php",
+   "group": "shortcode",
+   "title": "sidebar/sidebar-product-sort.php"
+  },
+  {
+   "path": "styles/contact_form-7.text",
+   "group": "styles",
+   "title": "contact_form-7.text"
+  },
+  {
+   "path": "styles/elementor_swiper.text",
+   "group": "styles",
+   "title": "elementor_swiper.text"
+  },
+  {
+   "path": "styles/gtranslate.css",
+   "group": "styles",
+   "title": "gtranslate.css"
+  },
+  {
+   "path": "styles/gtranslate_multiple_icon.css",
+   "group": "styles",
+   "title": "gtranslate_multiple_icon.css"
+  }
+ ]
+}
