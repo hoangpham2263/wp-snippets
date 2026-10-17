@@ -1,0 +1,119 @@
+<div class="form-grid">
+  [text* company-name class:form-input placeholder "Tên doanh nghiệp"]
+  [text* company-tax-id class:form-input placeholder "Mã số thuế"]
+  [text* company-address class:form-input placeholder "Địa chỉ doanh nghiệp"]
+  [number* company-staff min:1 class:form-input placeholder "Số lượng nhân sự"]
+  [text* contact-name class:form-input placeholder "Họ và tên người liên lạc"]
+  [tel* contact-phone class:form-input placeholder "Số điện thoại người liên lạc"]
+</div>
+<div class="block-textarea">
+  [textarea other-content class:form-input rows:5  placeholder "Nội dung khác"]
+</div>
+<div class="block-submit">
+  [submit class:custom-submit "GỬI ĐĂNG KÝ"]
+</div>
+
+/* ----- form-contact ----- */
+.form-grid br {
+    display: none !important; 
+}
+.form-grid p  {
+    margin: 0 !important; 
+    padding: 0 !important; 
+    border: 0; 
+    background: none;
+}
+
+/* Grid 2 cột cho desktop */
+.form-grid > p { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-row-gap: 15px;
+  grid-column-gap: 30px;
+}
+
+/* Input + textarea style */
+.form-input {
+  width: 100% !important;
+  padding: 18px 30px !important;
+  font-size: 16px !important;
+  color: #353A3E !important;
+  border-radius: 10px !important;
+  border: 1px solid #BFBFBF !important;
+  background: #fff !important;
+  outline: none !important;
+}
+
+.form-input::placeholder {
+  color: #353A3E !important;
+  font-size: 16px !important;
+}
+
+/* Ô full width */
+.col-span-2 { grid-column: span 2; }
+
+.block-textarea{
+    margin-top: 15px;
+}
+
+.block-submit{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-submit>p{
+    position: relative;
+    margin-bottom: 0;
+    width: fit-content;
+}
+
+.wpcf7-spinner{
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 !important;
+}
+
+/* Nút submit */
+.custom-submit {
+  background-color: #00904C !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  padding: 12px 48px !important;
+  border-radius: 10px !important;
+  border: none !important;
+  cursor: pointer !important;
+  margin: 0 auto !important;
+  display: block !important;
+  transition: background 0.2s !important;
+}
+.custom-submit:hover {
+    opacity: 0.8;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .form-grid > p {
+      grid-template-columns: 1fr;
+      grid-row-gap: 12px;
+  }
+  .col-span-2 { 
+      grid-column: span 1;
+  }
+  .block-textarea{
+    margin-top: 12px;
+  }
+  .block-submit{
+    margin-top: 25px;
+  }
+  .custom-submit { width: 100%; }
+}
+
+@media (max-width: 480px) {
+  .form-input { font-size: 17px; padding: 13px 15px !important;
+  }
+}
